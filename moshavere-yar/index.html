@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="مشاوره‌یار؛ ارتباط آسان و مطمئن با کارشناسان و مشاوران متخصص به صورت تلفنی و آنلاین.">
+  <meta name="theme-color" content="#101b2d">
+  <title>مشاوره‌یار | همراه مطمئن تصمیم‌های مهم شما</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>همراه شما برای انتخابی آگاهانه</span>
+      <span>پشتیبانی و پاسخ‌گویی در کنار شما</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="brand">
+        <span class="brand-icon">م</span>
+        <span>مشاوره<span class="brand-gold">‌یار</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="باز کردن منو">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">خانه</a>
+        <a href="#services">خدمات مشاوره</a>
+        <a href="#experts">مشاوران</a>
+        <a href="#how">نحوه دریافت مشاوره</a>
+        <a href="#vip">پرونده VIP</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-outline" id="loginBtn">ورود / ثبت‌نام</button>
+        <a href="#services" class="btn btn-gold">دریافت مشاوره</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            مشاوره تخصصی، ساده و در دسترس
+          </div>
+
+          <h1>
+            برای تصمیم‌های مهم،
+            <span>تنها نمانید.</span>
+          </h1>
+
+          <p>
+            در مشاوره‌یار می‌توانید متناسب با نیاز خود، مشاور موردنظرتان را
+            انتخاب کنید و از طریق تماس تلفنی یا گفت‌وگوی آنلاین مشاوره بگیرید.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-gold btn-large">شروع دریافت مشاوره</a>
+            <a href="#how" class="btn btn-light btn-large">آشنایی با مراحل</a>
+          </div>
+
+          <div class="hero-points">
+            <span><i>✓</i> انتخاب مشاور متناسب با نیاز</span>
+            <span><i>✓</i> ارتباط آسان و آنلاین</span>
+            <span><i>✓</i> پیگیری درخواست‌ها</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-orbit orbit-one"></div>
+          <div class="hero-orbit orbit-two"></div>
+          <div class="hero-card main-hero-card">
+            <div class="hero-card-top">
+              <span class="live-dot"></span>
+              مسیر دریافت مشاوره
+              <span class="hero-card-mark">MY</span>
+            </div>
+            <div class="hero-symbol">م</div>
+            <h3>یک قدم تا دریافت راهنمایی</h3>
+            <p>نوع مشاوره خود را انتخاب کنید و ادامه دهید.</p>
+            <div class="mini-steps">
+              <div class="mini-step active"><b>۱</b><span>انتخاب مشاوره</span></div>
+              <div class="mini-step"><b>۲</b><span>ثبت درخواست</span></div>
+              <div class="mini-step"><b>۳</b><span>ارتباط با مشاور</span></div>
+            </div>
+            <a href="#services" class="hero-card-link">مشاهده روش‌های مشاوره ←</a>
+          </div>
+
+          <div class="floating-card floating-top">
+            <span class="floating-icon">✦</span>
+            <div><strong>مشاوره متناسب با نیاز شما</strong><small>انتخاب روش ارتباط</small></div>
+          </div>
+
+          <div class="floating-card floating-bottom">
+            <span class="floating-check">✓</span>
+            <div><strong>پیگیری آسان</strong><small>از پنل کاربری شما</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-section">
+      <div class="container search-box">
+        <div>
+          <span class="search-label">به دنبال چه نوع مشاوره‌ای هستید؟</span>
+          <p>موضوع موردنظر خود را جست‌وجو کنید.</p>
+        </div>
+        <div class="search-input-wrap">
+          <span>⌕</span>
+          <input id="serviceSearch" type="search" placeholder="مثلاً مشاوره حقوقی، خانواده، کسب‌وکار...">
+          <button id="searchBtn">جست‌وجو</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">خدمات مشاوره</span>
+            <h2>چه نوع مشاوره‌ای نیاز دارید؟</h2>
+            <p>موضوع موردنظر خود را انتخاب کنید و مسیر دریافت مشاوره را آغاز کنید.</p>
+          </div>
+          <a href="#experts" class="text-link">مشاهده مشاوران ←</a>
+        </div>
+
+        <div class="service-grid" id="serviceGrid">
+          <article class="service-card" data-search="حقوقی وکیل قانون قرارداد پرونده">
+            <div class="service-icon icon-blue">⚖</div>
+            <span class="service-tag">مشاوره تخصصی</span>
+            <h3>مشاوره حقوقی</h3>
+            <p>دریافت راهنمایی درباره مسائل حقوقی، قراردادها و پرونده‌ها.</p>
+            <button class="service-link" data-service="حقوقی">انتخاب این خدمت <span>←</span></button>
+          </article>
+
+          <article class="service-card" data-search="خانواده ازدواج روابط زوجین">
+            <div class="service-icon icon-rose">♡</div>
+            <span class="service-tag">مشاوره تخصصی</span>
+            <h3>مشاوره خانواده</h3>
+            <p>گفت‌وگو و دریافت راهنمایی در مسائل خانوادگی و ارتباطی.</p>
+            <button class="service-link" data-service="خانواده">انتخاب این خدمت <span>←</span></button>
+          </article>
+
+          <article class="service-card" data-search="کسب و کار تجارت مدیریت شغلی">
+            <div class="service-icon icon-green">↗</div>
+            <span class="service-tag">مشاوره تخصصی</span>
+            <h3>مشاوره کسب‌وکار</h3>
+            <p>بررسی چالش‌ها و دریافت راهکار برای تصمیم‌های شغلی.</p>
+            <button class="service-link" data-service="کسب‌وکار">انتخاب این خدمت <span>←</span></button>
+          </article>
+
+          <article class="service-card" data-search="مالی سرمایه گذاری اقتصاد">
+            <div class="service-icon icon-gold">◇</div>
+            <span class="service-tag">مشاوره تخصصی</span>
+            <h3>مشاوره مالی</h3>
+            <p>دریافت راهنمایی برای برنامه‌ریزی و تصمیم‌های مالی.</p>
+            <button class="service-link" data-service="مالی">انتخاب این خدمت <span>←</span></button>
+          </article>
+        </div>
+        <p class="empty-search" id="emptySearch" hidden>خدمتی با این عنوان پیدا نشد. عبارت دیگری جست‌وجو کنید.</p>
+      </div>
+    </section>
+
+    <section class="consult-types">
+      <div class="container">
+        <div class="section-heading light-heading">
+          <div>
+            <span class="section-kicker">روش ارتباط</span>
+            <h2>شما روش مشاوره را انتخاب می‌کنید</h2>
+            <p>متناسب با شرایط و زمان خود، شیوه ارتباط را انتخاب کنید.</p>
+          </div>
+        </div>
+
+        <div class="type-grid">
+          <article class="type-card">
+            <div class="type-icon">☎</div>
+            <h3>مشاوره تلفنی</h3>
+            <p>زمان مناسب خود را انتخاب کنید و برای گفت‌وگوی تلفنی با مشاور برنامه‌ریزی کنید.</p>
+            <ul>
+              <li>انتخاب تاریخ و ساعت</li>
+              <li>امکان درخواست مشاوره فوری</li>
+              <li>اطلاع‌رسانی پیش از جلسه</li>
+            </ul>
+            <button class="btn btn-gold type-btn" data-type="تلفنی">انتخاب مشاوره تلفنی</button>
+          </article>
+
+          <article class="type-card featured-type">
+            <div class="featured-label">ارتباط آسان</div>
+            <div class="type-icon">✉</div>
+            <h3>مشاوره پیامکی و آنلاین</h3>
+            <p>از طریق فضای گفت‌وگوی اختصاصی یا بستر ارتباطی منتخب با کارشناس ارتباط بگیرید.</p>
+            <ul>
+              <li>گفت‌وگوی متنی اختصاصی</li>
+              <li>امکان ارسال فایل و صوت</li>
+              <li>پیگیری مکالمه در پنل کاربری</li>
+            </ul>
+            <button class="btn btn-gold type-btn" data-type="پیامکی">انتخاب مشاوره پیامکی</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experts-section" id="experts">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">همراهان مشاوره‌یار</span>
+            <h2>با مشاوران ما آشنا شوید</h2>
+            <p>برای آشنایی با خدمات هر مشاور، پروفایل او را بررسی کنید.</p>
+          </div>
+        </div>
+
+        <div class="expert-grid">
+          <article class="expert-card">
+            <div class="expert-avatar avatar-one">م</div>
+            <span class="expert-status"><i></i> آماده دریافت درخواست</span>
+            <h3>مشاور نمونه اول</h3>
+            <p>کارشناس مشاوره حقوقی</p>
+            <div class="expert-meta"><span>تجربه تخصصی</span><span>مشاوره تلفنی و متنی</span></div>
+            <button class="btn btn-outline expert-btn" data-expert="مشاور نمونه اول">مشاهده پروفایل</button>
+          </article>
+
+          <article class="expert-card">
+            <div class="expert-avatar avatar-two">ن</div>
+            <span class="expert-status"><i></i> آماده دریافت درخواست</span>
+            <h3>مشاور نمونه دوم</h3>
+            <p>کارشناس مشاوره خانواده</p>
+            <div class="expert-meta"><span>تجربه تخصصی</span><span>مشاوره تلفنی و متنی</span></div>
+            <button class="btn btn-outline expert-btn" data-expert="مشاور نمونه دوم">مشاهده پروفایل</button>
+          </article>
+
+          <article class="expert-card">
+            <div class="expert-avatar avatar-three">ع</div>
+            <span class="expert-status"><i></i> آماده دریافت درخواست</span>
+            <h3>مشاور نمونه سوم</h3>
+            <p>کارشناس مشاوره کسب‌وکار</p>
+            <div class="expert-meta"><span>تجربه تخصصی</span><span>مشاوره تلفنی و متنی</span></div>
+            <button class="btn btn-outline expert-btn" data-expert="مشاور نمونه سوم">مشاهده پروفایل</button>
+          </article>
+        </div>
+        <p class="demo-note">پروفایل‌ها و اطلاعات مشاوران در این نسخه نمایشی نمونه هستند.</p>
+      </div>
+    </section>
+
+    <section class="how-section section" id="how">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">مسیر دریافت خدمات</span>
+            <h2>دریافت مشاوره در چند مرحله ساده</h2>
+            <p>از انتخاب خدمت تا پایان مشاوره، همه‌چیز قابل پیگیری است.</p>
+          </div>
+        </div>
+
+        <div class="how-grid">
+          <div class="how-item"><b>۰۱</b><h3>انتخاب خدمت</h3><p>موضوع و نوع مشاوره را انتخاب کنید.</p></div>
+          <div class="how-item"><b>۰۲</b><h3>ثبت درخواست</h3><p>اطلاعات لازم را ثبت و هزینه را پرداخت کنید.</p></div>
+          <div class="how-item"><b>۰۳</b><h3>ارتباط با مشاور</h3><p>از طریق روش انتخابی با کارشناس ارتباط بگیرید.</p></div>
+          <div class="how-item"><b>۰۴</b><h3>پایان و نظرسنجی</h3><p>پس از اتمام جلسه، نظر خود را ثبت کنید.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="vip-section" id="vip">
+      <div class="container vip-inner">
+        <div>
+          <span class="section-kicker">خدمات ویژه</span>
+          <h2>پرونده شما، با رسیدگی اختصاصی</h2>
+          <p>اگر موضوع شما نیازمند بررسی ویژه است، خلاصه پرونده خود را ثبت کنید تا کارشناسان برای پیگیری با شما ارتباط بگیرند.</p>
+          <button class="btn btn-gold btn-large" id="vipBtn">ثبت درخواست پرونده VIP</button>
+        </div>
+        <div class="vip-seal">VIP</div>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="container final-cta-inner">
+        <h2>برای شروع آماده‌اید؟</h2>
+        <p>روش مشاوره موردنظر خود را انتخاب کنید و اولین درخواستتان را ثبت کنید.</p>
+        <a href="#services" class="btn btn-gold btn-large">شروع دریافت مشاوره</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#" class="brand footer-brand"><span class="brand-icon">م</span><span>مشاوره<span class="brand-gold">‌یار</span></span></a>
+        <p>راهی ساده برای ارتباط با مشاوران و دریافت راهنمایی تخصصی.</p>
+      </div>
+      <div><h4>دسترسی سریع</h4><a href="#services">خدمات مشاوره</a><a href="#experts">مشاوران</a><a href="#how">مراحل دریافت مشاوره</a></div>
+      <div><h4>راهنمای مشتریان</h4><a href="#vip">پرونده VIP</a><a href="#services">ثبت درخواست</a><a href="#home">بازگشت به بالا</a></div>
+      <div><h4>ارتباط با ما</h4><p>اطلاعات تماس در نسخه نهایی درج خواهد شد.</p><p>پشتیبانی مشاوره‌یار</p></div>
+    </div>
+    <div class="container footer-bottom">© تمامی حقوق این وب‌سایت محفوظ است.</div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
